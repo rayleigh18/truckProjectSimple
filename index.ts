@@ -1,9 +1,10 @@
-import { createMatricesPengemudi, createRandomPengemudis, destination_choose } from "./common/createRandomPengemudi";
+import { createRandomPengemudis, destination_choose } from "./common/createRandomPengemudi";
 import { runTopsis } from "./common/topsis";
 import { Kontrak } from "./type";
 
 import * as fs from "fs";
 import path from "path";
+import { createMatricesPengemudi } from "./common/topsisHandler/createMatricesPengemudi";
 
 
 const save_file = true
